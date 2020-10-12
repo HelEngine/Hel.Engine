@@ -1,0 +1,524 @@
+{
+  "homepages": [],
+  "source_base_path": "/github/workspace/docfx",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "hel-api/Hel.Engine.Commander.ExitCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "hel-api/Hel.Engine.Commander.ExitCommand.html",
+          "hash": "Jfj2tsse/GFJ19jRR4c65A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "hel-api/Hel.Engine.Commander.Model.ICommand-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "hel-api/Hel.Engine.Commander.Model.ICommand-1.html",
+          "hash": "z0RIIE4MA7HV96Va3GwLgQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "hel-api/Hel.Engine.Commander.Model.ICommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "hel-api/Hel.Engine.Commander.Model.ICommand.html",
+          "hash": "7aDEBubBKBOk/JD0jM8TVQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "hel-api/Hel.Engine.Commander.Model.Payload.ICommandPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "hel-api/Hel.Engine.Commander.Model.Payload.ICommandPayload.html",
+          "hash": "dmKJY5OOGqJnyAIn2Op3MA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "hel-api/Hel.Engine.Commander.Model.Payload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "hel-api/Hel.Engine.Commander.Model.Payload.html",
+          "hash": "4wuiOvp1yW11eAIwMS41ew=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "hel-api/Hel.Engine.Commander.Model.yml",
+      "output": {
+        ".html": {
+          "relative_path": "hel-api/Hel.Engine.Commander.Model.html",
+          "hash": "6VedgcD1a43p2mH/PXRUwA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "hel-api/Hel.Engine.Commander.yml",
+      "output": {
+        ".html": {
+          "relative_path": "hel-api/Hel.Engine.Commander.html",
+          "hash": "cX6oQHY0aEkoUlWpDXY4Qg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "hel-api/Hel.Engine.Engine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "hel-api/Hel.Engine.Engine.html",
+          "hash": "HODQw5MaopGUbwwOALs2uQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "hel-api/Hel.Engine.EventChange-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "hel-api/Hel.Engine.EventChange-1.html",
+          "hash": "pl0mfAIe0iHLpLNcn9i6Ug=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "hel-api/Hel.Engine.Input.GameComponent.InputHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "hel-api/Hel.Engine.Input.GameComponent.InputHandler.html",
+          "hash": "1Hr6pCR4AtLZeNca5dXq0A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "hel-api/Hel.Engine.Input.GameComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "hel-api/Hel.Engine.Input.GameComponent.html",
+          "hash": "OTiBP0W+jv1oQwqbkxWX7A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "hel-api/Hel.Engine.Input.KeyBindingManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "hel-api/Hel.Engine.Input.KeyBindingManager.html",
+          "hash": "g+OpJ8OgBRQH8mWXgMP7XQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "hel-api/Hel.Engine.Input.Model.DirectionalKeys.yml",
+      "output": {
+        ".html": {
+          "relative_path": "hel-api/Hel.Engine.Input.Model.DirectionalKeys.html",
+          "hash": "yIMjM3af3zDea0VwWQDExw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "hel-api/Hel.Engine.Input.Model.KeyBinding.yml",
+      "output": {
+        ".html": {
+          "relative_path": "hel-api/Hel.Engine.Input.Model.KeyBinding.html",
+          "hash": "vjt4aFl3ObWfiNzgKcvUGQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "hel-api/Hel.Engine.Input.Model.yml",
+      "output": {
+        ".html": {
+          "relative_path": "hel-api/Hel.Engine.Input.Model.html",
+          "hash": "DeC2vG8GP305qU+DlIqUSg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "hel-api/Hel.Engine.Input.Util.MoveDirection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "hel-api/Hel.Engine.Input.Util.MoveDirection.html",
+          "hash": "b0+8xt1KZXODx0XbfnR27w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "hel-api/Hel.Engine.Input.Util.yml",
+      "output": {
+        ".html": {
+          "relative_path": "hel-api/Hel.Engine.Input.Util.html",
+          "hash": "0iJUCSwCFaRYGoBR5I6BBA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "hel-api/Hel.Engine.Input.yml",
+      "output": {
+        ".html": {
+          "relative_path": "hel-api/Hel.Engine.Input.html",
+          "hash": "pzmLngdJPipUXIQ2FmZurw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "hel-api/Hel.Engine.Jobs.ExceptionExtensions.JobAlreadyQueuedException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "hel-api/Hel.Engine.Jobs.ExceptionExtensions.JobAlreadyQueuedException.html",
+          "hash": "SRZxwMVjAPJtKRHjY9z6hw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "hel-api/Hel.Engine.Jobs.ExceptionExtensions.JobNotQueuedException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "hel-api/Hel.Engine.Jobs.ExceptionExtensions.JobNotQueuedException.html",
+          "hash": "vwmbfin+apz4nWn/mNr6Qg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "hel-api/Hel.Engine.Jobs.ExceptionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "hel-api/Hel.Engine.Jobs.ExceptionExtensions.html",
+          "hash": "0a2KIX8MnN+cCG552WSP7w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "hel-api/Hel.Engine.Jobs.Model.IJob-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "hel-api/Hel.Engine.Jobs.Model.IJob-1.html",
+          "hash": "vvp7DUvKEh3GZpXUcoGeIg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "hel-api/Hel.Engine.Jobs.Model.yml",
+      "output": {
+        ".html": {
+          "relative_path": "hel-api/Hel.Engine.Jobs.Model.html",
+          "hash": "PkRnZpaCNwZtXTdWMdFJ8A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "hel-api/Hel.Engine.OnChangeEvent-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "hel-api/Hel.Engine.OnChangeEvent-1.html",
+          "hash": "x2k80JkoRlC2Wrmm7YqWKw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "hel-api/Hel.Engine.Rendering.IRenderer-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "hel-api/Hel.Engine.Rendering.IRenderer-1.html",
+          "hash": "M3u0w9bP+q/51mwtYVndBQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "hel-api/Hel.Engine.Rendering.LayerRenderer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "hel-api/Hel.Engine.Rendering.LayerRenderer.html",
+          "hash": "5HVfF8RtezY3vFNte9/UFQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "hel-api/Hel.Engine.Rendering.Models.Enums.RendererApi.yml",
+      "output": {
+        ".html": {
+          "relative_path": "hel-api/Hel.Engine.Rendering.Models.Enums.RendererApi.html",
+          "hash": "VR+voV3Y2QcHxzvUxi7/TQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "hel-api/Hel.Engine.Rendering.Models.Enums.yml",
+      "output": {
+        ".html": {
+          "relative_path": "hel-api/Hel.Engine.Rendering.Models.Enums.html",
+          "hash": "vRS2O/qNWeOnqbhuinDqMg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "hel-api/Hel.Engine.Rendering.Models.Payloads.IRendererPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "hel-api/Hel.Engine.Rendering.Models.Payloads.IRendererPayload.html",
+          "hash": "H9AzADzy0Kt7YG/40b1sUg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "hel-api/Hel.Engine.Rendering.Models.Payloads.TilemapRendererPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "hel-api/Hel.Engine.Rendering.Models.Payloads.TilemapRendererPayload.html",
+          "hash": "PXSsJD/V6t+cNiSSvjZQBw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "hel-api/Hel.Engine.Rendering.Models.Payloads.yml",
+      "output": {
+        ".html": {
+          "relative_path": "hel-api/Hel.Engine.Rendering.Models.Payloads.html",
+          "hash": "Udhlv+FhcvHaNfXWz/27IQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "hel-api/Hel.Engine.Rendering.TilemapRenderer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "hel-api/Hel.Engine.Rendering.TilemapRenderer.html",
+          "hash": "7AyaoBhO2mKWK64OL21CXQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "hel-api/Hel.Engine.Rendering.yml",
+      "output": {
+        ".html": {
+          "relative_path": "hel-api/Hel.Engine.Rendering.html",
+          "hash": "HK0hHDYy2z4eBpuu2J4cUQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "hel-api/Hel.Engine.Tiled.TiledLoader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "hel-api/Hel.Engine.Tiled.TiledLoader.html",
+          "hash": "aDV+OUT3w7nJyJTWCbhMGg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "hel-api/Hel.Engine.Tiled.yml",
+      "output": {
+        ".html": {
+          "relative_path": "hel-api/Hel.Engine.Tiled.html",
+          "hash": "FwHYaE7mocViY8Uo3BcQ4A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "hel-api/Hel.Engine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "hel-api/Hel.Engine.html",
+          "hash": "h/N43dVgjS+XhsUQc4CNsw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "hel-api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "hel-api/toc.html",
+          "hash": "UB/bKEoE5TGdKf4Ju1pRRA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "VOXXe3v9cFOTi36O0zPazA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "2AzWIBI6lRz0WOq/GKfHKg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 1,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 36,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
