@@ -13,6 +13,7 @@ namespace Hel.Engine
     {
 
         public static string FileRoot { get; private set; }
+        public static byte[] EncryptionKey { get; private set; }
         
         /// <summary>
         /// <see cref="Microsoft.Xna.Framework.Game"/> instance passed in by game during initialization. Useful for adding components
@@ -32,13 +33,14 @@ namespace Hel.Engine
         /// </summary>
         /// <param name="game">Your Game1 instance.</param>
         /// <param name="gameRootDirectory">The root to use for saving/loading data</param>
-        public static void Initialize(Game game, string gameRootDirectory)
+        public static void Initialize(Game game, string gameRootDirectory, byte[] encryptionKey)
         {
             Game = game;
             
             InputHandler = new InputHandler(game);
             game.Components.Add(InputHandler);
 
+            EncryptionKey = encryptionKey;
             FileRoot = gameRootDirectory;
         }
 
