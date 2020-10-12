@@ -19,8 +19,9 @@
   <p align="center">
     Hel Engine for game development with Monogame 
     <br />
-    <a href="https://github.com/HelEngine/Hel.Engine"><strong>Explore the docs »</strong></a>
+    <a href="https://helengine.github.io/Hel.Docsify/#/"><strong>Explore the docs »</strong></a>
     <br />
+    <a href="https://helengine.github.io/Hel.Engine/">API Reference</a>
     ·
     <a href="https://github.com/HelEngine/Hel.Engine/issues">Report Bug</a>
     ·
@@ -34,16 +35,13 @@
 ## Table of Contents
 
 * [About the Project](#about-the-project)
-  * [Built With](#built-with)
 * [Getting Started](#getting-started)
-  * [Prerequisites](#prerequisites)
   * [Installation](#installation)
 * [Usage](#usage)
 * [Roadmap](#roadmap)
 * [Contributing](#contributing)
 * [License](#license)
 * [Contact](#contact)
-* [Acknowledgements](#acknowledgements)
 
 
 
@@ -64,7 +62,7 @@ Add [Hel.Engine](https://www.nuget.org/packages/Hel.Engine/) to your project, or
 
 ## Usage
 
-[Full release documentation](https://grimmzlytm.github.io/Hel/hel-Engine/Hel.Engine.html)
+[Full release documentation](https://helengine.github.io/Hel.Engine/)
 
 <!-- ROADMAP -->
 ## Roadmap
