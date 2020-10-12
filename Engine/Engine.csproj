@@ -4,10 +4,18 @@
         <TargetFramework>netstandard2.1</TargetFramework>
         <OutputType>Library</OutputType>
         <LangVersion>8</LangVersion>
-        <Version>0.1.0</Version>
         <VersionSuffix>-$(Configuration)</VersionSuffix>
         <RootNamespace>Hel.Engine</RootNamespace>
     </PropertyGroup>
+
+    <PropertyGroup>
+        <PackageId>Hel.Engine</PackageId>
+        <PackageTags>hel;hel.engine;engine core;.net</PackageTags>
+        <Version>0.2.0</Version>
+        <Authors>Hel_Engine</Authors>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    </PropertyGroup>
+
 
     <ItemGroup>
       <PackageReference Include="Hel.ECS">
