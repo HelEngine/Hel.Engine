@@ -11,7 +11,7 @@
     <PropertyGroup>
         <PackageId>Hel.Engine</PackageId>
         <PackageTags>hel;hel.engine;engine core;.net</PackageTags>
-        <Version>0.2.0</Version>
+        <Version>0.2.1</Version>
         <Authors>Hel_Engine</Authors>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     </PropertyGroup>
