@@ -24,21 +24,22 @@ namespace Hel.Engine
         /// Input manager for handling user inputs and keybindings
         /// </summary>
         public static InputHandler InputHandler { get; private set; }
-        
-        
+
+
         /// <summary>
         /// The Initialize method is required in-order to initialize and startup the hel engine properly. This will run necessary setup methods, as well as
         /// assign the required _components to your game so they can run automatically.
         /// </summary>
         /// <param name="game">Your Game1 instance.</param>
-        public static void Initialize(Game game)
+        /// <param name="gameRootDirectory">The root to use for saving/loading data</param>
+        public static void Initialize(Game game, string gameRootDirectory)
         {
             Game = game;
             
             InputHandler = new InputHandler(game);
             game.Components.Add(InputHandler);
-            
-            FileRoot = Directory.GetCurrentDirectory();
+
+            FileRoot = gameRootDirectory;
         }
 
         public static void AddGameComponent(IGameComponent gameComponent)

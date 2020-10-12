@@ -130,12 +130,12 @@ namespace Hel.Engine.Input
         public void SaveBindingsJSON()
         {
             var output = ByteSerializer.ObjectToByteArray(_bindings);//JsonConvert.SerializeObject(_bindings);
-            File.WriteAllBytes($"{Hel.Engine.Engine.FileRoot}/Bindings", output);
+            File.WriteAllBytes($"{Engine.FileRoot}/Bindings", output);
         }
         
         public void LoadBindingsJSON()
         {
-            string filePath = $"{Hel.Engine.Engine.FileRoot}/Bindings";
+            string filePath = $"{Engine.FileRoot}/Bindings";
             
             if (!File.Exists(filePath))
             {
