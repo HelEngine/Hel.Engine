@@ -129,7 +129,7 @@ namespace Hel.Engine.Input
 
         public void SaveBindingsJSON()
         {
-            var output = ByteSerializer.ObjectToByteArray(_bindings);//JsonConvert.SerializeObject(_bindings);
+            var output = ByteSerializer.ObjectToByteArray(_bindings, Engine.EncryptionKey);//JsonConvert.SerializeObject(_bindings);
             File.WriteAllBytes($"{Engine.FileRoot}/Bindings", output);
         }
         
@@ -152,7 +152,7 @@ namespace Hel.Engine.Input
             var input = File.ReadAllBytes(filePath);
             
             
-            _tempBindings = (HashSet<KeyBinding>) ByteSerializer.ByteArrayToObject(input);//JsonConvert.DeserializeObject<HashSet<KeyBinding>>(input);
+            _tempBindings = ByteSerializer.ByteArrayToObject<HashSet<KeyBinding>>(input, Engine.EncryptionKey);//JsonConvert.DeserializeObject<HashSet<KeyBinding>>(input);
         }
     }
 }

@@ -11,7 +11,7 @@
     <PropertyGroup>
         <PackageId>Hel.Engine</PackageId>
         <PackageTags>hel;hel.engine;engine core;.net</PackageTags>
-        <Version>0.2.1</Version>
+        <Version>0.2.11</Version>
         <Authors>Hel_Engine</Authors>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     </PropertyGroup>
@@ -23,6 +23,9 @@
       </PackageReference>
       <PackageReference Include="Hel.Tiled">
         <Version>0.5.0</Version>
+      </PackageReference>
+      <PackageReference Include="Hel.Toolkit">
+        <Version>0.5.21</Version>
       </PackageReference>
       <PackageReference Include="MonoGame.Framework.DesktopGL">
         <Version>3.8.0.1641</Version>
