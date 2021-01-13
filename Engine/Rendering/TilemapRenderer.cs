@@ -2,7 +2,9 @@
 using System.Linq;
 using Hel.Engine.Rendering.Models.Enums;
 using Hel.Engine.Rendering.Models.Payloads;
+using Hel.Tiled;
 using Hel.Tiled.Models.Enums.Layer;
+using Hel.Tiled.Utilities;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
@@ -14,19 +16,16 @@ namespace Hel.Engine.Rendering
     public class TilemapRenderer : IRenderer<TilemapRendererPayload>
     {
         public RendererApi RendererApi { get; } = RendererApi.OpenGL;
-        
-        static readonly uint FLIPPED_HORIZONTALLY_FLAG = 0x80000000;
-        static readonly uint FLIPPED_VERTICALLY_FLAG   = 0x40000000;
-        static readonly uint FLIPPED_DIAGONALLY_FLAG   = 0x20000000;
-        
+
         public void Draw(TilemapRendererPayload payload, SpriteBatch spriteBatch)
         {
             SpriteEffects horizontalFlipEffect; 
             SpriteEffects verticalFlipEffect;
-            for(int layerIndex = 0; layerIndex < payload.Tilemap.Layers.Count; layerIndex++ )
+            var manager = new TilemapManager(payload.Tilemap);
+            var tilemapLayers = manager.GetTileLayers();
+            for(int layerIndex = 0; layerIndex < tilemapLayers.Count; layerIndex++ )
             {
-                var layer = payload.Tilemap.Layers[layerIndex];
-                if (layer.Type != LayerTypeEnum.TileLayer) continue;
+                var layer = tilemapLayers[layerIndex];
                 
                 for (var i = 0; i < layer.Data.Length; i++)
                 {
@@ -34,15 +33,13 @@ namespace Hel.Engine.Rendering
     
                     if (gid == 0) continue;
                     
-                    horizontalFlipEffect = (gid & FLIPPED_HORIZONTALLY_FLAG) != 0 ? SpriteEffects.FlipHorizontally : SpriteEffects.None;
-                    verticalFlipEffect = (gid & FLIPPED_VERTICALLY_FLAG) != 0 ? SpriteEffects.FlipVertically : SpriteEffects.None;
+                    horizontalFlipEffect = TileHelper.IsFlippedHorizontally(gid) ? SpriteEffects.FlipHorizontally : SpriteEffects.None;
+                    verticalFlipEffect = TileHelper.IsFlippedVertically(gid) ? SpriteEffects.FlipVertically : SpriteEffects.None;
                     //var flipped_diagonally = (gid & FLIPPED_DIAGONALLY_FLAG) != 0;
 
                     var spriteEffect = (horizontalFlipEffect | verticalFlipEffect);
-                    
-                    gid &= (int) ~(FLIPPED_HORIZONTALLY_FLAG |
-                                   FLIPPED_VERTICALLY_FLAG |
-                                   FLIPPED_DIAGONALLY_FLAG);
+
+                    gid = TileHelper.CleanGid(gid);
 
 
                     var tilemapX = (i % payload.Tilemap.Width) * payload.Tilemap.TileWidth;
